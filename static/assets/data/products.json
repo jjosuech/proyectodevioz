@@ -1,0 +1,81 @@
+[
+  {
+    "id": 101,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Plomo",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_madera/Escritorio_1.png",
+    "price": 100.0,
+    "compareAt": null,
+    "badge": {
+      "type": "new",
+      "label": "Nuevo"
+    },
+    "rating": 4
+  },
+  {
+    "id": 102,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Blanco",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_madera/Escritorio_2.png",
+    "price": 100.0,
+    "compareAt": null,
+    "badge": {
+      "type": "hot",
+      "label": "Caliente"
+    },
+    "rating": 4
+  },
+  {
+    "id": 103,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Marron",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_madera/Escritorio_3.png",
+    "price": 100.0,
+    "compareAt": null,
+    "badge": {
+      "type": "oos",
+      "label": "Agotado"
+    },
+    "rating": 4
+  },
+  {
+    "id": 104,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Elegante",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_madera/Escritorio_4.png",
+    "price": 100.0,
+    "compareAt": 120.0,
+    "badge": {
+      "type": "discount",
+      "label": "10% de descuento"
+    },
+    "rating": 4
+  },
+  {
+    "id": 105,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Arbol",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_madera/Escritorio_5.png",
+    "price": 100.0,
+    "compareAt": null,
+    "badge": null,
+    "rating": 4
+  },
+  {
+    "id": 106,
+    "category": "Oficina & Productividad",
+    "branch": "Escritorios regulables",
+    "title": "Escritorio de Madera Arbol",
+    "image": "/static/assets/img/product/Oficina & Productividad/Escritorios regulables/Escritorio_metal1/EscritorioMetal_1.png",
+    "price": 100.0,
+    "compareAt": null,
+    "badge": null,
+    "rating": 4
+  }
+
+]

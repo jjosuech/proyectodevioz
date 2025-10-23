@@ -1,0 +1,25 @@
+{% macro product_card(p) -%}
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="product-item">
+    <div class="product-thumb">
+      <a href="{{ url_for('product_page', pid=p.id) }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
+      <span class="status">Nuevo</span>
+      <div class="product-action">
+        <a href="#" class="action-btn add-to-cart" data-id="{{ p.id }}"><i class="far fa-shopping-bag"></i></a>
+        <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+        <a href="#" class="action-btn"><i class="far fa-arrows-rotate"></i></a>
+      </div>
+    </div>
+    <div class="product-content">
+      <div class="rating">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+      </div>
+      <h4><a href="{{ url_for('product_page', pid=p.id) }}">{{ p.title }}</a></h4>
+      <div class="product-price">
+        <span>${{ '%.2f'|format(p.price) }}</span>
+        {% if p.compareAt %}<del>${{ '%.2f'|format(p.compareAt) }}</del>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{%- endmacro %}
